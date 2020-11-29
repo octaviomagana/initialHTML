@@ -1,2 +1,2 @@
 # initialHTML
-This is an initial repository to start playing with HTML and CSS
+This is an initial repository with HTML and CSS examples from the Platzi class "Definitive Class of HTML and CSS"
