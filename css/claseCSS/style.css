@@ -1,0 +1,20 @@
+
+   /*Selector por elemento*/
+   p { 
+        color: green;
+        font-size: 40px;
+    }
+    
+    /*Selector usando class*/
+
+    .parrafo {
+        color: red;
+    }
+
+    /*Selector usando id*/
+
+    #texto {
+        color: yellow;
+        font-size: 24px;
+
+    }
