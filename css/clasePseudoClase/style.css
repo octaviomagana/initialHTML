@@ -1,0 +1,44 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+
+    display: inline-block;
+
+}
+
+.main-nav__item a {
+
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    
+} /*siendo especifico aplicando un estilo a etiquetas a*/
+
+
+/*empezando a usar las pseudoclases*/
+/*cuando se pone el puntero del mouse se cambia a azul el texto de la etiqueta a*/
+.main-nav__item a:hover { 
+
+    color: blue;
+
+}
+/*cuando se hace click se cambia a rojo el texto de la etiqueta a*/
+.main-nav__item a:active {
+
+    color: red;
+
+}
+
+/* usando los pseudoelementos*/
+
+.main-nav__item a::after {
+
+    content: " | ";
+
+}
+
