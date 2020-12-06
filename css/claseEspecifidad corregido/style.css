@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+.title {
+
+    font-size: 18px;
+    font-family: monospace;
+}
+
+/*
+Primero lleva importancia el id, luego la clase y hasta el final las etiquetas
+Los ids no son buenas practicas. No es buena practica usar tanto id
+*/
+
+.nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;    
+}
+
+.nav li {
+
+    display: inline-block;
+
+}
+
+.nav a {
+
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+
+.nav .blog {
+    background-color: red;
+
+}

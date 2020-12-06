@@ -1,0 +1,7 @@
+/* Regla dice aplica el estilo a todos los parrafos que esten cercanos a h2  */
+h2 + p {
+
+    color: red;
+
+}
+
