@@ -1,0 +1,7 @@
+h2 ~ p {
+
+    color: red;
+
+}
+
+/* Vamos a modificar todas las etiquetas parrafo que tengan como hermano general un H2  */

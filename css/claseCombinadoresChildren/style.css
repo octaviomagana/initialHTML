@@ -1,0 +1,24 @@
+/* Hijo Directo: La etiqueta parrafo que sea hija directa de div agrega estos estilos*/
+/* div > p {
+
+    color: red;
+
+} */
+
+
+
+
+
+/* Combinador descendiente (es el mas habitual): 
+todas las parrafo que esten dentro de una etiqueda Div como descendiente*/
+div p {
+
+    color: red;
+
+}
+
+
+
+/* Documentacion de combinadores:
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators
+Juego de combinadores: https://flukeout.github.io/ */
