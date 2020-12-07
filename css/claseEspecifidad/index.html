@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Especifidad</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1 id="page-title" class="title">Empresa</h1>
+        <nav>
+            <ul id="main-nav" class="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Cursos</a></li>
+                <li><a href="">Instructores</a></li>
+                <li >
+                    <!-- <a href="" style="background-color: orange;" class ="blog">Blog</a>
+                    Mala practica meter un estilo embebido es mejor usar una clase
+                por la especifidad -->
+                    <a href="" class = "blog" >Blog</a>
+                    
+
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+</body>
+</html>
+
+<!-- Los IDs son unicos y las clases son genericas y se puede tenerse en varios elementos y los estilos
+se aplican a varios elementos, se aplica a CSS y JavaScrip -->
