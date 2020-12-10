@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+
+}
+
+section {
+width: 80%; /* para usar el min-width: y el max-width: siempre hay que tener un width base en porcentaje*/
+min-width: 320px;
+max-width: 500px; /* Limitar el crecimiento */
+min-height: 500px; /*para usar el height no tienes que usar el % base inicial para pasarte
+al poner min-height en lugar de height, le estamos diciendo que el contenedor en altura tendra
+como minimo la altura de 500px pero puede crecer si el texto crece*/
+margin: 0 auto; /* Esto centra automaticamente de arriba a abajo no pongas margen 
+y de izquierda y derecha ajustalo automaticament */
+background-color: red;
+
+}
+

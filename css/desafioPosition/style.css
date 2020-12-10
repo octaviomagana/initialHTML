@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+#Top {
+    font-size: 2rem;
+
+}
+
+#Bottom {
+    font-size: 2rem;
+
+}
+
+#Bottom img {
+    height: 10%;
+    width: 10%;
+
+}
