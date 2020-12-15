@@ -1,0 +1,40 @@
+* { 
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif ;
+
+}
+.platzi-header {
+    background-color: #1c3643;
+    position: relative;
+}
+
+.logo-header {
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.menu_header {
+    display: inline-block;
+    position: relative;
+    padding-left: 1100px;
+    
+}
+.menu_header ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.menu_header li {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+}
