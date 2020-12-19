@@ -12,6 +12,7 @@ html {
 body {
     font-family: sans-serif;
     min-height: 100vh;
+    width: 100vw;
     position: relative;
 
 }
@@ -19,7 +20,6 @@ body {
     background-color: #1c3643;
     position: absolute;
     width: 100%;
-    
 }
 
 .logo-header {
@@ -50,9 +50,29 @@ body {
 
 }
 
+.aside_left {
+    background-color: lightgray;
+    width: 20%;
+    min-width:100px;
+    max-width: 300px;
+    position: absolute;
+    height: 100%;
+}
+
+.aside_section {
+    border-radius: 2px;
+    background-color: lightslategray;
+}
+
+.aside_section p {
+    color: white;
+
+}
+
+
+
 footer {
     background-color: #1c3643;
-
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -93,3 +113,5 @@ footer .footer_right {
     padding-right: 20px;
     padding-top: 10px;
 }
+
+
