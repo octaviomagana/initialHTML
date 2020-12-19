@@ -12,14 +12,18 @@ html {
 body {
     font-family: sans-serif;
     min-height: 100vh;
+    width: 100vw;
     position: relative;
+    grid-template-areas: "header header"
+                        "aside main"
+                        "footer" "footer";
 
 }
 .platzi-header {
+    grid-area: header;
     background-color: #1c3643;
     position: absolute;
     width: 100%;
-    
 }
 
 .logo-header {
@@ -50,7 +54,32 @@ body {
 
 }
 
+.aside_left {
+    grid-area: aside;
+    background-color: lightgray;
+    width: 20%;
+    min-width:100px;
+    max-width: 300px;
+    position: absolute;
+    height: 100%;
+}
+
+.aside_section {
+    border-radius: 2px;
+    background-color: lightslategray;
+}
+
+.aside_section p {
+    color: white;
+
+}
+
+.main_section {
+    grid-area: main;
+}
+
 footer {
+    grid-area: footer;
     background-color: #1c3643;
 
     position: absolute;
@@ -93,3 +122,5 @@ footer .footer_right {
     padding-right: 20px;
     padding-top: 10px;
 }
+
+
