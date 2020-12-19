@@ -13,16 +13,16 @@ body {
     font-family: sans-serif;
     min-height: 100vh;
     width: 100vw;
-    position: relative;
-    grid-template-areas: "header header"
-                        "aside main"
-                        "footer" "footer";
-
+    display: grid;
+    grid-template-areas: "header header header"
+                        "sidebar content content"
+                        "footer" "footer footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 .platzi-header {
     grid-area: header;
     background-color: #1c3643;
-    position: absolute;
     width: 100%;
 }
 
@@ -33,7 +33,6 @@ body {
 
 .menu_header {
     display: inline-block;
-    position: relative;
     float: right;
     padding-top: 4%;
     
@@ -55,12 +54,11 @@ body {
 }
 
 .aside_left {
-    grid-area: aside;
+    grid-area: sidebar;
     background-color: lightgray;
     width: 20%;
     min-width:100px;
     max-width: 300px;
-    position: absolute;
     height: 100%;
 }
 
@@ -75,14 +73,12 @@ body {
 }
 
 .main_section {
-    grid-area: main;
+    grid-area: content;
 }
 
 footer {
     grid-area: footer;
     background-color: #1c3643;
-
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 5rem;

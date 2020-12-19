@@ -1,0 +1,42 @@
+* { 
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
+
+}
+
+.box_header {
+    grid-area: header;
+    background-color: lightgray;
+}
+
+
+.box_sidebar {
+    grid-area: sidebar;
+    background-color: gray;
+
+}
+
+.box_content {
+    grid-area: content;
+    background-color: gray;
+
+}
+
+.box_footer {
+    grid-area: footer;
+    background-color: lightgray;
+}
