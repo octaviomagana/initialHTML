@@ -1,0 +1,145 @@
+* { 
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 15% 75% 10%;
+    min-height: 100vh;
+    width: 100vw;
+
+}
+
+.box_header {
+    grid-area: header;
+    background-color: #1c3643;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.logo-header {
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.logo-header img {
+    width: 70%;
+    height: 70%;
+}
+
+
+.menu_header {
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    
+}
+.menu_header ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.menu_header li {
+    display: inline-block;
+}
+
+
+.box_sidebar {
+    grid-area: sidebar;
+    background-color: #056099;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+   
+}
+
+.aside_section {
+    border-radius: 5px;
+    background-color: #0791E6;
+    width: auto;
+    height: auto;
+    min-height: 5rem;
+    margin: 1rem;
+    
+    
+    
+    /* width: 80%;
+    height: 10%;
+    padding-top: 25px;
+    margin: 10px auto; reemplazamos por flex*/
+    
+    
+}
+
+.aside_section p{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    vertical-align: middle;
+
+}
+
+
+.box_content {
+    grid-area: content;
+    
+
+}
+
+.box_footer {
+    grid-area: footer;
+    background-color: #1c3643;
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer .footer_left {
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+
+}
+
+.footer_left a:link {
+
+    color:white;
+}
+
+.footer_left a:visited {
+
+    color:white;
+}
+
+.footer_left a:hover {
+
+    color: lightgreen;
+}
+
+.footer_left a:active {
+
+    color:darkgreen;
+}
+
+footer .footer_right {
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
