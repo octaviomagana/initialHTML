@@ -16,9 +16,11 @@ body {
 .container {
     border: 0.3rem solid black;
     display:flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-evenly;
-
+    /* align-items: center: lo centra, stretch; para alinear verticalmente stretch se hace grande, 
+    baseline se pone al tamano de su contenido*/
+    /* height: 50vh; */
+    flex-wrap: wrap; /*voy a ajustarlo para que ocupe todo el tamano de lo ancho de mi pantalla*/
+    
     
 }
 /*display row esta por default
@@ -31,21 +33,28 @@ space-even (le da un espacio a las cajas de manera proporcional
 */
 
 .box {
-    width: 10rem;
+    /* width: 10rem; */
     height: 10rem;
+    flex-basis: 10rem; /*cuando lo hago mas chico se empiezan a bajar los contenedores*/
+    flex-grow: 1;
 }
 
 
 .box1 {
     background-color: blue;
+    /*order: 1; Todos los contenedores que no tengan un orden los pasara a la izquierda automaticamente*/
+    /* flex-grow: 1; queremos que crezca una posicion se ajusta automaticamente al crecer o reducir el navegador*/
 }
 
 .box2 {
     background-color: blueviolet;
+    /* flex-grow: 1; queremos que crezca una posicion*/
+    /* order: 3; */
 }
 
 .box3 {
     background-color: burlywood;
+    
 }
 
 .box4 {
@@ -54,8 +63,10 @@ space-even (le da un espacio a las cajas de manera proporcional
 
 .box5 {
     background-color: coral;
+    /* order: 4; */
 }
 
 .box6 {
     background-color: salmon;
+    /* order: 2; */
 } 
