@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h1, .h2, .c1, .c2, .c3, .c4, .f1, .f2 {
+
+    width: 100%;
+    min-width: 150px;
+    height: auto;
+
+}
+
+.h1, .h2 {
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.h1 img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width:100%;
+    max-height:100%;
+}
+
+.h2 {
+    width: 100%;
+    min-width: 150px;
+    height: auto;
+    font-size: 1.7rem;
+    margin: auto;
+}
+
+
+
+
+.h2 li {
+    
+    display: inline-block;
+    padding: 1rem;
+}
+
+.c1, .c2, .c3, .c4 {
+    background-color: #e8e8e8;
+}
+
+.f1, .f2 {
+    background-color: #ffffff;
+}
+
+
+.c1 h1{
+
+    text-align: center;
+    padding: 1.2rem;
+    font-weight: bold;
+}
+
+
+.c1 p {
+
+    text-align: justify;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.c1 ol {
+    text-align: justify;
+    list-style-type: decimal;
+    padding: 2rem;
+    font-size: 1.4rem;
+
+}
+
+.c2 img {
+    max-width:100%;
+    max-height:100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.c3 img {
+    max-width:100%;
+    max-height:100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.c4 h1{
+
+    text-align: center;
+    padding: 1.2rem;
+    font-weight: bold;
+}
+
+.c4 p {
+
+    text-align: justify;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.c4 ol {
+    text-align: justify;
+    list-style-type: decimal;
+    padding: 2rem;
+    font-size: 1.4rem;
+
+}
+
+.f1, .f2 {
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
+.f1 a {
+    padding: 1rem;
+    
+}
+
+.f2 p {
+    padding: 1rem;
+}
