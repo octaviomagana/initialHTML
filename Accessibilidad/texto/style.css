@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+/* usando REM le damos oportunidad a personas con problemas visuales
+a que puedan ajustar su texto  */
